@@ -82,7 +82,7 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="RegistroChequeo.aspx">Nuevo Chequeo </a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Buscar Historial</a>
+          <a class="dropdown-item" href="HistorialVeterinario.aspx">Buscar Historial</a>
         </div>
       </li>
 
@@ -92,7 +92,7 @@
           Adopciones
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Nueva Adopcion</a>
+          <a class="dropdown-item" href="RegistroAdopcion.aspx">Nueva Adopcion</a>
           <a class="dropdown-item" href="Adoptantes.aspx">Adoptantes</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="MascotasAdoptadas.aspx">Mascotas Adoptadas</a>

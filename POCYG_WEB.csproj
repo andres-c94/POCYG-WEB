@@ -92,6 +92,7 @@
     <Content Include="Paginas\EstiloDasgboard.css" />
     <Content Include="Paginas\EstiloDashboard.css" />
     <Content Include="Paginas\EstiloLogin.css" />
+    <Content Include="Paginas\HistorialVeterinario.aspx" />
     <Content Include="Paginas\img\19021593.JPG" />
     <Content Include="Paginas\img\76.jpg" />
     <Content Include="Paginas\img\huellalogo.png" />
@@ -120,6 +121,7 @@
     <Content Include="Paginas\Adoptantes.aspx" />
     <Content Include="Paginas\MascotasNoAdoptadas.aspx" />
     <Content Include="Paginas\RegistroChequeo.aspx" />
+    <Content Include="Paginas\RegistroAdopcion.aspx" />
     <Content Include="Web.config" />
     <Content Include="Paginas\RegistroMascotas.aspx" />
     <Content Include="Paginas\Voluntarios.aspx" />
@@ -128,6 +130,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Chequeo.cs" />
+    <Compile Include="RegistroAdopcion.cs" />
     <Compile Include="Coneccion.cs" />
     <Compile Include="CS_Voluntarios.cs" />
     <Compile Include="DataSet1.Designer.cs">
@@ -137,6 +140,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\HistorialVeterinario.aspx.cs">
+      <DependentUpon>HistorialVeterinario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\HistorialVeterinario.aspx.designer.cs">
+      <DependentUpon>HistorialVeterinario.aspx</DependentUpon>
     </Compile>
     <Compile Include="Paginas\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -186,6 +196,13 @@
     </Compile>
     <Compile Include="Paginas\RegistroChequeo.aspx.designer.cs">
       <DependentUpon>RegistroChequeo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\RegistroAdopcion.aspx.cs">
+      <DependentUpon>RegistroAdopcion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\RegistroAdopcion.aspx.designer.cs">
+      <DependentUpon>RegistroAdopcion.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Dashboard.Master.cs">
