@@ -80,7 +80,7 @@
           Historial Medico
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Nuevo Chequeo </a>
+          <a class="dropdown-item" href="RegistroChequeo.aspx">Nuevo Chequeo </a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Buscar Historial</a>
         </div>
