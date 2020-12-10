@@ -1,0 +1,40 @@
+﻿.todo{
+    background-image: url("img/76.jpg");
+    background-size:cover;
+   
+}
+
+.navbar {
+    box-shadow: 2px 2px 15px black;
+}
+
+.nav-item {
+    margin-left: 5em;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+
+.nav-item:hover{
+        background-color: #006575;
+        border-radius: 5px;
+        
+        /*box-shadow: 2px 2px 15px 0 black;*/
+}
+
+.foo {
+    background-color: #343a40;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+    list-style: none;
+    box-shadow: 2px 2px 15px 0 black;
+}
+
+    .foo ul {
+        list-style: none;
+        text-align: center;
+        justify-self: start;
+    }
+
+
