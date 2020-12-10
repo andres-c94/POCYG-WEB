@@ -35,7 +35,17 @@ namespace POCYG_WEB.Paginas
                 TextBox6.Text = "";
 
             } 
-            catch { Label7.Text = "Cedula del encargado o Nombre de la mascota no existen"; }
+            catch { Label7.Text = "Cedula del encargado o Nombre de la Mascota no existen"; }
+        }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            TextBox1.Text = "";
+            TextBox2.Text = "";
+            TextBox3.Text = "";
+            TextBox4.Text = "";
+            TextBox5.Text = "";
+            TextBox6.Text = "";
         }
     }
 }
