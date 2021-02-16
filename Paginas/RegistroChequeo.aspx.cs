@@ -28,11 +28,8 @@ namespace POCYG_WEB.Paginas
                 veterinario.agregar();
                 Label7.Text = "Consulta Agregada";
                 TextBox1.Text = "";
-                TextBox2.Text = "";
-                TextBox3.Text = "";
-                TextBox4.Text = "";
                 TextBox5.Text = "";
-                TextBox6.Text = "";
+               
 
             } 
             catch { Label7.Text = "Cedula del encargado o Nombre de la Mascota no existen"; }
@@ -40,12 +37,11 @@ namespace POCYG_WEB.Paginas
 
         protected void Button3_Click(object sender, EventArgs e)
         {
-            TextBox1.Text = "";
-            TextBox2.Text = "";
-            TextBox3.Text = "";
-            TextBox4.Text = "";
+            
             TextBox5.Text = "";
-            TextBox6.Text = "";
+            
         }
+
+      
     }
 }

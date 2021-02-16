@@ -48,7 +48,7 @@ namespace POCYG_WEB
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextPerroGato1;
+        protected global::System.Web.UI.WebControls.DropDownList TextPerroGato1;
 
         /// <summary>
         /// Control TextRaza.
@@ -75,7 +75,7 @@ namespace POCYG_WEB
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextTamaño;
+        protected global::System.Web.UI.WebControls.DropDownList TextTamaño;
 
         /// <summary>
         /// Control TextNecesidades.
@@ -84,7 +84,7 @@ namespace POCYG_WEB
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextNecesidades;
+        protected global::System.Web.UI.WebControls.DropDownList TextNecesidades;
 
         /// <summary>
         /// Control TextAdoptado.
@@ -93,7 +93,7 @@ namespace POCYG_WEB
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextAdoptado;
+        protected global::System.Web.UI.WebControls.DropDownList TextAdoptado;
 
         /// <summary>
         /// Control estadoRegistro.

@@ -46,7 +46,7 @@ namespace POCYG_WEB
                 veterinarios.Cedula = TextBox7.Text;
                 veterinarios.Nombres = TextBox8.Text;
                 veterinarios.Telefono = TextBox9.Text;
-                veterinarios.Profesion = TextBox10.Text;
+                veterinarios.Profesion = TextBox11.Text;
                 veterinarios.Especialidad = TextBox11.Text;
                 veterinarios.agregar();
 
@@ -55,7 +55,7 @@ namespace POCYG_WEB
                 TextBox7.Text = "";
                 TextBox8.Text = "";
                 TextBox9.Text = "";
-                TextBox10.Text = "";
+                TextBox11.Text = "";
                 TextBox11.Text = "";
                 
 

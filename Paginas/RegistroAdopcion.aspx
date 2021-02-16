@@ -65,7 +65,9 @@
                     <asp:Label ID="Label5" runat="server" Text="Nombre de la Mascota Adoptada"></asp:Label>
                 </td>
                 <td style="height: 48px">
-                    <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
+                    <asp:DropDownList ID="TextBox5" runat="server" DataSourceID="SqlDataSource1" DataTextField="nombre" DataValueField="nombre">
+                    </asp:DropDownList>
+                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:RefugioConnectionString %>" SelectCommand="SELECT [nombre] FROM [AnimalesPendientesPorAdopcion]"></asp:SqlDataSource>
                 </td>
                 <td style="height: 48px"></td>
             </tr>

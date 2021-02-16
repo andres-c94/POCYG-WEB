@@ -53,7 +53,7 @@
                         <br />
                         <br />
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:TextBox ID="TextBox1" runat="server" BackColor="#666666" BorderColor="#666666" BorderStyle="Solid" ForeColor="#000099" Width="260px" Height="28px"></asp:TextBox>
+                        <asp:TextBox ID="TextBox1" runat="server" BackColor="#999999" BorderColor="#666666" BorderStyle="Solid" ForeColor="White" Width="260px" Height="28px"></asp:TextBox>
                         <br />
                         <br />
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -61,7 +61,7 @@
                         <br />
                         <br />
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:TextBox ID="TextBox2" runat="server" BackColor="#666666" BorderColor="#666666" BorderStyle="Solid" ForeColor="#666666" Width="262px" Height="28px"></asp:TextBox>
+                        <asp:TextBox ID="TextBox2" runat="server" BackColor="#999999" BorderColor="#666666" BorderStyle="Solid" ForeColor="White" Width="262px" Height="28px"></asp:TextBox>
                         <br />
                         <br />
                         <br />

@@ -464,7 +464,13 @@
                           <asp:Label ID="Label4" runat="server" Text="Profesion:"></asp:Label>
                       </td>
                       <td class="auto-style9">
-                          <asp:TextBox ID="TextBox10" runat="server"></asp:TextBox>
+                          <asp:DropDownList ID="TextBox10" runat="server">
+                              <asp:ListItem></asp:ListItem>
+                              <asp:ListItem>Veterinario</asp:ListItem>
+                              <asp:ListItem>Zootecnista</asp:ListItem>
+                              <asp:ListItem>Adiestrador</asp:ListItem>
+                              <asp:ListItem>Cuidador</asp:ListItem>
+                          </asp:DropDownList>
                       </td>
                   </tr>
                   <tr>
@@ -473,7 +479,21 @@
                           <asp:Label ID="Label5" runat="server" Text="Especialidad:"></asp:Label>
                       </td>
                       <td class="auto-style10">
-                          <asp:TextBox ID="TextBox11" runat="server"></asp:TextBox>
+                          <asp:DropDownList ID="TextBox11" runat="server">
+                              <asp:ListItem></asp:ListItem>
+                              <asp:ListItem>Anestesiologia</asp:ListItem>
+                              <asp:ListItem>Cirugia</asp:ListItem>
+                              <asp:ListItem>Dermatologia</asp:ListItem>
+                              <asp:ListItem>Neurologia</asp:ListItem>
+                              <asp:ListItem>Odontologia</asp:ListItem>
+                              <asp:ListItem>Rehabilitacion</asp:ListItem>
+                              <asp:ListItem>Fisioterapia</asp:ListItem>
+                              <asp:ListItem>Cardiologia</asp:ListItem>
+                              <asp:ListItem>Radiologia</asp:ListItem>
+                              <asp:ListItem>Microbiologia</asp:ListItem>
+                              <asp:ListItem>Psicologia</asp:ListItem>
+                              <asp:ListItem>Parasitologia</asp:ListItem>
+                          </asp:DropDownList>
                       </td>
                   </tr>
                   <tr>
@@ -548,8 +568,7 @@ Vereda La Cuesta, Vía Tenjo, Finca San Roque .
         <div class="fooo">
 
             <ul>
-                <li> <i class="fab fa-instagram"></i> andres_94</li>
-                <li><i class="fab fa-whatsapp"></i> 3134515607</li>
+                <li> <i class="fab fa-instagram"></i> andres_94        <li><i class="fab fa-whatsapp"></i> 3134515607</li>
                 <li><i class="fab fa-facebook-square"></i> andres_da.es</li>
                 <li><i class="far fa-envelope"></i> Andrescgaviria@gmail.com</li>
             </ul>

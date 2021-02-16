@@ -183,7 +183,7 @@ namespace POCYG_WEB
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox10;
+        protected global::System.Web.UI.WebControls.DropDownList TextBox10;
 
         /// <summary>
         /// Control Label5.
@@ -201,7 +201,7 @@ namespace POCYG_WEB
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox11;
+        protected global::System.Web.UI.WebControls.DropDownList TextBox11;
 
         /// <summary>
         /// Control Label6.

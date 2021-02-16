@@ -21,7 +21,11 @@
         <tr>
             <td style="width: 227px">Perro/Gato:</td>
             <td style="width: 209px">
-                <asp:TextBox ID="TextPerroGato1" runat="server" OnTextChanged="TextPerroGato_TextChanged" ForeColor="#999966">Ej: Perro</asp:TextBox>
+                <asp:DropDownList ID="TextPerroGato1" runat="server">
+                    <asp:ListItem></asp:ListItem>
+                    <asp:ListItem>Perro</asp:ListItem>
+                    <asp:ListItem>Gato</asp:ListItem>
+                </asp:DropDownList>
             </td>
             <td style="width: 292px">
                 &nbsp;</td>
@@ -45,7 +49,12 @@
         <tr>
             <td style="width: 227px">Tamaño:</td>
             <td style="width: 209px">
-                <asp:TextBox ID="TextTamaño" runat="server" ForeColor="#999966">Pequeño, mediano, grande</asp:TextBox>
+                <asp:DropDownList ID="TextTamaño" runat="server">
+<asp:ListItem></asp:ListItem>
+                    <asp:ListItem>Pequeño</asp:ListItem>
+                    <asp:ListItem>Mediano</asp:ListItem>
+                    <asp:ListItem>Grande</asp:ListItem>
+                </asp:DropDownList>
             </td>
             <td style="width: 292px">
                 &nbsp;</td>
@@ -53,7 +62,11 @@
         <tr>
             <td style="width: 227px">Necesidades especiales(Si/No)</td>
             <td style="width: 209px">
-                <asp:TextBox ID="TextNecesidades" runat="server"></asp:TextBox>
+                <asp:DropDownList ID="TextNecesidades" runat="server">
+                    <asp:ListItem></asp:ListItem>
+                    <asp:ListItem>No</asp:ListItem>
+                    <asp:ListItem>Si</asp:ListItem>
+                </asp:DropDownList>
             </td>
             <td style="width: 292px">
                 &nbsp;</td>
@@ -61,7 +74,11 @@
         <tr>
             <td style="width: 227px">Adoptado(Si/No)</td>
             <td style="width: 209px">
-                <asp:TextBox ID="TextAdoptado" runat="server"></asp:TextBox>
+                <asp:DropDownList ID="TextAdoptado" runat="server">
+                    <asp:ListItem></asp:ListItem>
+                    <asp:ListItem>No</asp:ListItem>
+                    <asp:ListItem>Si</asp:ListItem>
+                </asp:DropDownList>
             </td>
             <td style="width: 292px">
                 &nbsp;</td>

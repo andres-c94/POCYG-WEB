@@ -19,7 +19,16 @@
                 <asp:Label ID="Label1" runat="server" Text="Tipo de Diagnostico:"></asp:Label>
             </td>
             <td style="height: 53px">
-                <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                <asp:DropDownList ID="TextBox1" runat="server">
+                    <asp:ListItem></asp:ListItem>
+                    <asp:ListItem>Esterilizacion</asp:ListItem>
+                    <asp:ListItem>Chequeo</asp:ListItem>
+                    <asp:ListItem>Desparasitacion</asp:ListItem>
+                    <asp:ListItem>Higiene</asp:ListItem>
+                    <asp:ListItem>Operacion</asp:ListItem>
+                    <asp:ListItem>Seguimiento</asp:ListItem>
+                    <asp:ListItem>Vacunacion</asp:ListItem>
+                </asp:DropDownList>
             </td>
             <td style="height: 53px">&nbsp;</td>
         </tr>
@@ -30,7 +39,9 @@
                 <asp:Label ID="Label8" runat="server" ForeColor="Red" Text="*"></asp:Label>
             </td>
             <td style="height: 58px">
-                <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                <asp:DropDownList ID="TextBox2" runat="server" DataSourceID="SqlDataSource1" DataTextField="nombre" DataValueField="nombre">
+                </asp:DropDownList>
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:RefugioConnectionString %>" SelectCommand="SELECT [nombre] FROM [Mascotas]"></asp:SqlDataSource>
             </td>
             <td style="height: 58px"></td>
         </tr>
@@ -40,7 +51,9 @@
                 <asp:Label ID="Label3" runat="server" Text="Veterinario Encargado:"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                <asp:DropDownList ID="TextBox3" runat="server" DataSourceID="SqlDataSource2" DataTextField="nombres" DataValueField="nombres">
+                </asp:DropDownList>
+                <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:RefugioConnectionString %>" SelectCommand="SELECT [nombres] FROM [VeterinarioVoluntario]"></asp:SqlDataSource>
             </td>
             <td>&nbsp;</td>
         </tr>
@@ -51,7 +64,9 @@
                 <asp:Label ID="Label9" runat="server" ForeColor="Red" Text="*"></asp:Label>
             </td>
             <td style="height: 55px">
-                <asp:TextBox ID="TextBox4" runat="server" TextMode="Number"></asp:TextBox>
+                <asp:DropDownList ID="TextBox4" runat="server" DataSourceID="SqlDataSource3" DataTextField="cedula" DataValueField="cedula">
+                </asp:DropDownList>
+                <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:RefugioConnectionString %>" SelectCommand="SELECT [cedula] FROM [VeterinarioVoluntario]"></asp:SqlDataSource>
             </td>
             <td style="height: 55px"></td>
         </tr>
@@ -61,7 +76,7 @@
                 <asp:Label ID="Label5" runat="server" Text="Resultado del Diagnostico:"></asp:Label>
             </td>
             <td style="height: 152px">
-                <asp:TextBox ID="TextBox5" runat="server" Height="109px" style="margin-bottom: 21" Width="495px" TextMode="MultiLine"></asp:TextBox>
+                <asp:TextBox ID="TextBox5" runat="server" Height="109px" style="margin-bottom: 21" Width="495px" TextMode="MultiLine" ValidateRequestMode="Enabled"></asp:TextBox>
             </td>
             <td style="height: 152px"></td>
         </tr>
