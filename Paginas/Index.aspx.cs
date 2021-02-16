@@ -62,6 +62,8 @@ namespace POCYG_WEB
             }
             catch { Label6.Text = "Usuario Ya Registrado"; }
 
-        } 
-}
+        }
+
+      
+    }
 }

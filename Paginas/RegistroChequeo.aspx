@@ -51,7 +51,7 @@
                 <asp:Label ID="Label9" runat="server" ForeColor="Red" Text="*"></asp:Label>
             </td>
             <td style="height: 55px">
-                <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+                <asp:TextBox ID="TextBox4" runat="server" TextMode="Number"></asp:TextBox>
             </td>
             <td style="height: 55px"></td>
         </tr>
@@ -71,7 +71,7 @@
                 <asp:Label ID="Label6" runat="server" Text="Fecha Diagnostico:"></asp:Label>
             </td>
             <td style="height: 49px">
-                <asp:TextBox ID="TextBox6" runat="server" TextMode="DateTime"></asp:TextBox>
+                <asp:TextBox ID="TextBox6" runat="server" TextMode="Date"></asp:TextBox>
             </td>
             <td style="height: 49px"></td>
         </tr>

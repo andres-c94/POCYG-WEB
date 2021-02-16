@@ -21,7 +21,7 @@
         <tr>
             <td style="width: 227px">Perro/Gato:</td>
             <td style="width: 209px">
-                <asp:TextBox ID="TextPerroGato1" runat="server" OnTextChanged="TextPerroGato_TextChanged"></asp:TextBox>
+                <asp:TextBox ID="TextPerroGato1" runat="server" OnTextChanged="TextPerroGato_TextChanged" ForeColor="#999966">Ej: Perro</asp:TextBox>
             </td>
             <td style="width: 292px">
                 &nbsp;</td>
@@ -37,7 +37,7 @@
         <tr>
             <td style="width: 227px">Edad:</td>
             <td style="width: 209px">
-                <asp:TextBox ID="TextEdad" runat="server"></asp:TextBox>
+                <asp:TextBox ID="TextEdad" runat="server" TextMode="Number" ToolTip="Ingrese edad valida}" ForeColor="#999966">Edad en meses</asp:TextBox>
             </td>
             <td style="width: 292px">
                 &nbsp;</td>
@@ -45,7 +45,7 @@
         <tr>
             <td style="width: 227px">Tamaño:</td>
             <td style="width: 209px">
-                <asp:TextBox ID="TextTamaño" runat="server"></asp:TextBox>
+                <asp:TextBox ID="TextTamaño" runat="server" ForeColor="#999966">Pequeño, mediano, grande</asp:TextBox>
             </td>
             <td style="width: 292px">
                 &nbsp;</td>

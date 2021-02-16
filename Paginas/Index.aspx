@@ -333,8 +333,7 @@
                                     <td class="auto-style22">No. Cedula:</td>
                                     <td class="auto-style21">
                                         <asp:TextBox ID="TextBox1" runat="server" BorderColor="#333399"
-                                            ForeColor="#000066" Width="209px">
-                                        </asp:TextBox>
+                                            ForeColor="#000066" Width="209px" TextMode="Number"></asp:TextBox>
                                     </td>
                                     <td class="auto-style21"></td>
                                 </tr>
@@ -353,8 +352,7 @@
                                     <td class="auto-style22">Telefono:</td>
                                     <td class="auto-style21">
                                         <asp:TextBox ID="TextBox3" runat="server" BorderColor="#333399"
-                                            ForeColor="#000066" Width="209px">
-                                        </asp:TextBox>
+                                            ForeColor="#999966" Width="209px" TextMode="Number">+57</asp:TextBox>
                                     </td>
                                     <td class="auto-style21"></td>
                                 </tr>
@@ -363,7 +361,7 @@
                                     <td class="auto-style24">Correo electronico:</td>
                                     <td class="auto-style23">
                                         <asp:TextBox ID="TextBox4" runat="server" BorderColor="#333399"
-                                            ForeColor="#000066" Width="210px"></asp:TextBox>
+                                            ForeColor="#999966" Width="210px" TextMode="Email">Example@gmail.com</asp:TextBox>
                                     </td>
                                     <td class="auto-style23"></td>
                                 </tr>
@@ -372,7 +370,7 @@
                                     <td class="auto-style26">Dias de Disponibilidad:</td>
                                     <td class="auto-style25">
                                         <asp:TextBox ID="TextBox5" runat="server" BorderColor="#333399"
-                                            ForeColor="#000066" Width="210px"></asp:TextBox>
+                                            ForeColor="#999966" Width="210px">Sabado, Domindo</asp:TextBox>
                                     </td>
                                     <td class="auto-style25"></td>
                                 </tr>
@@ -381,7 +379,7 @@
                                     <td class="auto-style35">Horas de Disponibilidad:</td>
                                     <td class="auto-style36">
                                         <asp:TextBox ID="TextBox6" runat="server" BorderColor="#333399"
-                                            ForeColor="#000066" Width="210px" CssClass="active"></asp:TextBox>
+                                            ForeColor="#999966" Width="210px" CssClass="active">7 Am a 10 Pm</asp:TextBox>
                                     </td>
                                     <td class="auto-style36"></td>
                                 </tr>
@@ -436,7 +434,7 @@
                           <asp:Label ID="Label1" runat="server" Text="Cedula:"></asp:Label>
                       </td>
                       <td class="auto-style8">
-                          <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
+                          <asp:TextBox ID="TextBox7" runat="server" TextMode="Number"></asp:TextBox>
                       </td>
                       <td rowspan="6">
                           <asp:Image ID="Image1" runat="server" Height="238px" ImageUrl="~/Paginas/img/imagen9.JPG" Width="373px" />
@@ -457,7 +455,7 @@
                           <asp:Label ID="Label3" runat="server" Text="Telefono:"></asp:Label>
                       </td>
                       <td class="auto-style9">
-                          <asp:TextBox ID="TextBox9" runat="server"></asp:TextBox>
+                          <asp:TextBox ID="TextBox9" runat="server" ForeColor="#999966" TextMode="Number">+57</asp:TextBox>
                       </td>
                   </tr>
                   <tr>
