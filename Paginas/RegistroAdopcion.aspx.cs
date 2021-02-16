@@ -32,10 +32,14 @@ namespace POCYG_WEB.Paginas
                 TextBox3.Text = "";
                 TextBox4.Text = "";
                 TextBox5.Text = "";
-               
-
             }
-            catch { Label6.Text = "Error al Registrar"; }
+            catch
+            {
+               Label6.Text = "Mascota no existe"; 
+            }
         }
+
+      
+
     }
 }

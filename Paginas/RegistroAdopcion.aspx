@@ -10,12 +10,20 @@
         <table class="w-100" style="height: 323px; margin-top: 27px">
             <tr>
                 <td style="height: 53px; width: 187px;"></td>
+
+
+
                 <td style="height: 53px">
-                    <asp:Label ID="Label1" runat="server" Text="Cedula Adoptante:"></asp:Label>
+                    <asp:Label ID="Label1" TextMode="Number" runat="server" Text="Cedula Adoptante:"></asp:Label>
                 </td>
+
+               
                 <td style="height: 53px">
                     <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <asp:Label ID="Label7" runat="server"></asp:Label>
                 </td>
+
+
                 <td style="height: 53px"></td>
             </tr>
             <tr>
